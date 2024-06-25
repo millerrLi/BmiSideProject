@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BmiSideProjectApplication</string>
+    <string name="fighting_bmi">Fighting! BMI</string>
+    <string name="weight">Weight:</string>
+    <string name="input_your_weight_kg">Input your Weight(kg)</string>
+    <string name="height">Height:</string>
+    <string name="input_your_height_m">Input your Height(m)</string>
+    <string name="calculate_bmi">CALCULATE BMI</string>
+</resources>
