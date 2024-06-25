@@ -36,6 +36,12 @@ class MainActivity : AppCompatActivity() {
                     .setTitle("BMI訊息")
                     .setMessage(status.toString())
                     .setPositiveButton("OK", null)
+                    .setNegativeButton("RESET"){ dialog,which ->
+                        binding.weightEditText.text.clear()
+                        binding.heightEditText.text.clear()
+                        binding.bmiNum.text = ""
+                        binding.feeback.text = ""
+                    }
                     .show()
 
             }
